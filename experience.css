@@ -1,0 +1,73 @@
+.header {
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+  height: 80px;
+  }
+  .header > div{
+    background-color: #530202b6;
+    width:100%;
+    align-items: center;
+    padding-top: 15px;
+    font-size: 18px;
+  }
+  .header a{
+  text-decoration: none;
+  margin:15px;
+  color: white;
+  }
+  .header .sar1{
+  font-size: 30px;
+  color: maroon;
+  }
+
+  .jumbotron {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    margin-bottom: 30px;
+    color: inherit;
+    background-color: #eee;
+}
+
+.jumbotron .h1 {
+    color: inherit;
+}
+.h1, h1 {
+    font-size: 36px;
+}
+.h1, .h2, .h3, h1, h2, h3 {
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6 {
+    font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+    color: inherit;
+}
+h1 {
+    font-size: 2em;
+    margin: .67em 0;
+}
+* {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+h1 {
+    display: block;
+    font-size: 2em;
+    margin-block-start: 0.67em;
+    margin-block-end: 0.67em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-weight: bold;
+}
+.jumbotron p {
+    margin-bottom: 15px;
+    font-size: 21px;
+    font-weight: 200;
+}
+p {
+    margin: 0 0 10px;
+}

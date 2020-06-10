@@ -1,0 +1,141 @@
+
+body {
+  background-color: rgba(124, 41, 35, 0);
+}
+
+.dropdown {
+  text-align: left;
+}
+
+.dropbtn {
+  align-content: flex-start;
+}
+
+* {
+  box-sizing: border-box;
+}
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+height: 80px;
+}
+.header > div{
+  background-color: #530202b6;
+  width:100%;
+  align-items: center;
+  padding-top: 15px;
+  font-size: 18px;
+}
+.header a{
+text-decoration: none;
+margin:15px;
+color: white;
+}
+.header .sar1{
+font-size: 30px;
+color: maroon;
+}
+
+.topnav {
+  padding: 3%;
+  background-color: rgba(190, 186, 186, 0.767);
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 30px;
+  text-align: center;
+}
+.flex-container{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(236, 239, 241);
+  padding-top: 15px;
+}
+.flex-container > div {
+  background-color: #f1f1f1;
+  width: 50%;
+  text-align:start;
+  line-height: 45px;
+  font-size: 20px;
+  padding-top: 15px;
+  margin-right: 100px;
+}
+.imgcontent > h2{
+  padding-left:30%;
+
+}
+.imgcontent > p{
+  padding-left:30%;
+}
+.second > p{
+  padding-left:20%;
+  padding-right: 10%;
+}
+.secondimg{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(236, 239, 241);
+  padding-top: 15px;
+ 
+}
+.secondimg img{
+  padding-left:20%;
+  padding-top: 40px;
+  
+}
+
+.secondimg > div{
+  background-color: #f1f1f1;
+  width: 100%;
+
+  line-height: 45px;
+  font-size: 20px;
+  padding-top: 15px;
+  
+}
+.form1{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+ .Biography{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 20px;
+  background-color: rgba(219, 221, 223, 0.363);
+  padding-left:10%;
+  text-align: justify;
+}
+.cv  a{
+  text-decoration: none;
+  font-size: 30px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-bottom: 30px;
+}
+.cv > div {
+  align-items: center;
+  color: rgba(234, 241, 241, 0.904);
+  text-align: center;
+  background-color: rgba(190, 186, 186, 0.767);
+
+}
+.bottomnav{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(97, 2, 2);
+  width: auto;
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+
+.bottomnav  a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 40px;
+
+}
+  
+.sarbot{
+  font-size: 30px;
+  padding-right: 30%;
+}

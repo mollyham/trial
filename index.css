@@ -1,0 +1,521 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  scroll-padding: 0;
+  background-color: rgb(253, 253, 253);
+}
+
+.header {
+  display: flex;
+  flex-wrap: nowrap;
+  width: 100%;
+height: 80px;
+opacity: 30;
+}
+.header > div{
+  background-color: #470303da;
+  width:100%;
+  align-items: center;
+  padding-top: 15px;
+  font-size: 18px;
+}
+.header a{
+text-decoration: none;
+margin:15px;
+color: white;
+
+} 
+.header .sar1{
+font-size: 30px;
+color:whitesmoke;
+padding-right: 20px;
+}
+.main{
+  display: inline-flex;
+  flex-wrap: nowrap;
+  padding-top: 40px;
+  background-color: hsla(240, 6%, 87%, 0.877);
+  
+}
+.main >  div{
+  font-size: 30px;
+  text-align: start;
+}
+.main p{
+  font-size: 70px;
+  font-style:initial ;
+  align-content: center;
+  padding-left: 40px;
+  color: hsl(0, 89%, 25%);
+}
+.main img{
+  align-items: flex-end;
+  left: 30px;
+  padding-left: 20px;
+}
+.aboutme{
+display: inline-flex;
+flex-wrap: nowrap;
+padding-top:50px;
+width:auto;
+
+}
+.content h1{
+ font-size: 40px;
+ font-family: Arial, Helvetica, sans-serif;
+ text-align: center;
+ 
+}
+.content h1 a{
+  text-decoration: none;
+  color: rgb(122, 4, 4);
+}
+.aboutme img{
+  align-items: flex-end;
+  left:35px;
+}
+.content p {
+text-align: start;
+font-size: 20px;
+font-family:Arial, Helvetica, sans-serif;
+padding-left:20%;
+line-height: 2.0em;
+margin-left:30px;
+margin-right: 10px;
+}
+
+.Experience{
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: rgb(224, 228, 224);
+
+}
+.Experience p{
+font-size: 40px;
+font-family: Arial, Helvetica, sans-serif;
+text-align: center;
+}
+.contact{
+  background:url('./sarimages/green_lights.jpg') no-repeat; 
+  
+}
+.contact img{
+  width: 100%;
+  height: 400px;
+  object-fit: fill;
+}
+.whatido{
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@media only screen and (max-width:800px) {
+  .main {
+    width: 80%;
+    padding: 0;
+  }
+
+}
+@media only screen and (max-width:800px) {
+  .header, .main, .aboutme {
+    width: 100%;
+  }
+}
+.contactme {
+  display:flex;
+  flex-wrap: nowrap;
+  background-color: rgba(223, 210, 210, 0.767);
+  padding: 10%;
+  
+}
+
+.contactme h1{
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size:40px;
+  width: 100%;
+  text-align: center;
+  
+}
+.pragh{
+  text-align: center;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.adress{
+  display: flex;
+  flex-wrap: nowrap;
+  padding-top: 20px;
+  color:white;
+}
+.adress > div{
+width: 100%;
+margin: 10px;
+text-align: center;
+background-color: black;
+}
+.follow{
+display: flex;
+background-color: rgb(199, 202, 202);
+color: blue;
+}
+.follow > div{
+width: 100%;
+margin: 10px;
+text-align: center;
+border: rgb(170, 173, 173);
+border-radius: 50%;
+}
+
+input[type=text], select, textarea {
+width: 50%;
+padding: 12px;
+border: 1px solid #ccc;
+border-radius: 4px;
+box-sizing: border-box;
+margin-top: 6px;
+margin-bottom: 16px;
+resize: vertical;
+display: flex;
+}
+
+input[type=submit] {
+background-color: rgb(180, 187, 180);
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 4px;
+cursor: pointer;
+}
+
+input[type=submit]:hover {
+background-color: #460602;
+}
+
+.container {
+border-radius: 5px;
+background-color: #f2f2f2;
+padding: 20px;
+padding-left: 35%;
+/* background-color: rgba(204, 206, 206, 0.178); */
+}
+h3{
+align-content: center;
+text-align: center;
+padding-top: 15px;
+font-size: 30px;
+font-family: Arial, Helvetica, sans-serif;
+}
+.paraexp{
+  display:flex;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+  background-color: rgb(219, 218, 216);
+}
+.paraexp p{
+  font-size: 20px;
+  margin: 25px;
+  margin-bottom: 60px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* .dropdown{
+  text-align: left;
+}
+.dropbtn{
+  align-content: flex-start;
+}
+
+header {
+  background-color: rgb(138, 32, 5);
+  padding-top: 15px;
+  text-align: center;
+  font-size: 20px;
+  color: black;
+  
+} */
+.sar1{
+  /* display: flex;
+  overflow-wrap: normal;
+  align-items: flex-start;
+}
+.Trainings ul li{
+  width: 50vw;
+
+}
+.section {
+  display: -webkit-flex;
+  display: flex;
+}
+
+
+nav {
+  -webkit-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+  padding:15px;
+  width: 8%;
+  border: 10px;
+  text-overflow: inherit;
+}
+
+#box-container {
+  display: flex;
+  height: 500px;
+}
+
+#box-1 {
+  background-color: rgb(138, 54, 43);
+  height: 200px;
+  flex: 1 1 150px;
+}
+article {
+  -webkit-flex: 3;
+  -ms-flex: 3;
+  flex: 3;
+  padding: 50px;
+  justify-content: center;
+  /* display:flex; */
+/* }
+ h2 {
+  color: white;
+}
+
+h1{
+  color:black;
+}
+h4 {
+color:black;
+}
+article {
+  text-align: inherit;
+  padding-left: 20%;
+  padding-top: 3%;
+  font-size: x-large;
+  font-weight: 300px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: black;
+}
+article li
+{ font-size: medium;
+  
+
+}
+
+.aboutsar{ 
+font-family: Arial, Helvetica, sans-serif;
+text-align: justify;
+font-size: medium;
+font-weight: 200px;
+padding-right: 170px;
+padding-left: 20px;
+ padding: 10px;
+}
+.aboutsar h4{
+font: 40px;
+}
+.getintouch{
+  columns: #f1f1f1;
+  font-size: 30px;
+  
+}
+.widget-content{
+  text-align: center;
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif;
+  color: #ccc;
+}
+
+footer {background-color: rgb(126, 12, 8);
+  padding-top: 5px;
+  text-align: center;
+  font-size: 10px;
+}
+
+.navbar {
+  overflow: hidden;
+  background-color: rgb(82, 7, 7);
+  font-family:Arial, Helvetica, sans-serif ;
+  padding: 20px 0px 20px 0px;
+}
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: left;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+.dropdown .dropbtn {
+  font-size: 16px;
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit; /* Important for vertical align on mobile phones */
+  /* margin: 0;}
+
+  
+    .navbar a:hover, .dropdown:hover .dropbtn {
+      background-color: rgb(3, 82, 85);
+    }
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 160px;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+    }  
+    .dropdown-content a {
+      float: none;
+      color: black;
+      /* padding: 12px 30px; */
+      /* text-decoration: none;
+      display: block;
+      text-align: left;
+    }
+    .dropdown-content a:hover {
+      background-color: rgb(8, 175, 175);
+    }
+    .dropdown:hover .dropdown-content {
+      display: block;
+    }
+    img {
+      border-radius: 50%;
+      padding-top: 0px;
+      padding-bottom: 10px;
+      
+    }
+              
+    .navbar input[type=text] {
+      float: right;
+      padding: 6px;
+      border: none;
+      margin-top: 8px;
+      margin-right: 16px;
+      font-size: 17px;
+    }
+
+    @media screen and (max-width: 600px) {
+   .navbar input[type=text] {
+        float: none;
+        display: block;
+        text-align: left;
+        width: 100%;
+        margin: 0;
+        padding: 14px;
+      }
+      .navbar input[type=text] {
+        border: 1px solid #ccc;
+      }
+    }
+    .fa{
+      display: inline-block;
+      font-style: normal ;
+      font-variant:normal ;
+      text-rendering: auto;
+      inline-size: 1;
+      font-size: inherit;
+    }
+    .search{
+      display: grid;
+      position: absolute;
+     right: 200px;
+     bottom: 10px;
+    }
+    .button1, select {
+      text-transform: none;
+    }
+    .button1 { 
+      color:wheat;
+      letter-spacing: normal;
+      text-indent: 0px;
+      word-spacing: normal;
+      text-shadow: none;
+      text-align: center;
+    
+    }
+    .about{
+        color: rgb(128, 26, 13);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 15%;
+      }
+      .leader{
+        color: rgb(128, 26, 13);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 15%;
+        background-color: aqua;
+      }
+      .Interests{
+        color: rgb(128, 26, 13);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 15%;
+        background-color: aqua;
+      }
+      .Trainings{
+        color: rgb(128, 26, 13);
+        padding: 15px 32px;
+        text-align: center;
+        text-decoration: none;
+        display: inline-block;
+        font-size: 15px;
+        border-radius: 15%;
+        background-color: aqua;
+      }
+
+      .d1{background:LightSkyBlue
+        ;
+        height: 200px;
+        flex: 1 1 150px;
+        grid-template-rows:40px;
+      }
+      .d2{background:LightSalmon;
+        height: 200px;
+        flex: 1 1 150px;
+        grid-template-rows:40px;
+      }
+      .d3{background:PaleTurquoise;
+        height: 200px;
+        flex: 1 1 150px;
+        grid-template-rows:40px;
+      }   */
