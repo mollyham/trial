@@ -39,15 +39,14 @@ color: maroon;
 }
 
 .container h1{
-  font-weight: bold;
   text-align: center;
   font-family: Arial, Helvetica, sans-serif;
   color: rgba(15, 15, 15, 0.966);
-  font-size: 40px;
+  font-size: 200px;
 }
 
 h1::first-letter {
-  font-size: 200%;
+  font-size: 300%;
   color: rgb(112, 43, 3);
 }
 .container h3{
@@ -82,4 +81,24 @@ h1::first-letter {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 30px;
   text-align: center;
+}
+.bottomnav{
+  display: flex;
+  flex-wrap: nowrap;
+  background-color: rgb(97, 2, 2);
+  width: auto;
+  padding-top: 50px;
+  padding-bottom:50px;
+}
+
+.bottomnav  a{
+  text-decoration: none;
+  font-size: 20px;
+  font-family: Arial, Helvetica, sans-serif;
+  padding-right: 40px;
+
+}
+.sarbot{
+  font-size: 30px;
+  padding-right: 30%;
 }
